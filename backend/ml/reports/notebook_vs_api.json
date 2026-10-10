@@ -1,0 +1,152 @@
+[
+ {
+  "id": "CAND-012027",
+  "kind": "high-confidence Selected",
+  "actual": "Yes",
+  "nb_pred": "Selected",
+  "nb_prob": 99.85,
+  "api_pred": "Selected",
+  "api_prob": 99.85,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-006178",
+  "kind": "high-confidence Selected",
+  "actual": "Yes",
+  "nb_pred": "Selected",
+  "nb_prob": 98.32,
+  "api_pred": "Selected",
+  "api_prob": 98.32,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-007747",
+  "kind": "high-confidence Selected",
+  "actual": "Yes",
+  "nb_pred": "Selected",
+  "nb_prob": 99.69,
+  "api_pred": "Selected",
+  "api_prob": 99.69,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-026437",
+  "kind": "low-confidence Selected",
+  "actual": "Yes",
+  "nb_pred": "Selected",
+  "nb_prob": 58.5,
+  "api_pred": "Selected",
+  "api_prob": 58.5,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-035512",
+  "kind": "low-confidence Selected",
+  "actual": "Yes",
+  "nb_pred": "Selected",
+  "nb_prob": 50.89,
+  "api_pred": "Selected",
+  "api_prob": 50.89,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-032293",
+  "kind": "high-confidence Not Selected",
+  "actual": "No",
+  "nb_pred": "Not Selected",
+  "nb_prob": 0.13,
+  "api_pred": "Not Selected",
+  "api_prob": 0.13,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-035624",
+  "kind": "high-confidence Not Selected",
+  "actual": "No",
+  "nb_pred": "Not Selected",
+  "nb_prob": 0.06,
+  "api_pred": "Not Selected",
+  "api_prob": 0.06,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-008239",
+  "kind": "high-confidence Not Selected",
+  "actual": "No",
+  "nb_pred": "Not Selected",
+  "nb_prob": 0.97,
+  "api_pred": "Not Selected",
+  "api_prob": 0.97,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-029010",
+  "kind": "low-confidence Not Selected",
+  "actual": "No",
+  "nb_pred": "Not Selected",
+  "nb_prob": 43.8,
+  "api_pred": "Not Selected",
+  "api_prob": 43.8,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-044961",
+  "kind": "low-confidence Not Selected",
+  "actual": "No",
+  "nb_pred": "Not Selected",
+  "nb_prob": 41.83,
+  "api_pred": "Not Selected",
+  "api_prob": 41.83,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-006037",
+  "kind": "borderline",
+  "actual": "Yes",
+  "nb_pred": "Selected",
+  "nb_prob": 50.06,
+  "api_pred": "Selected",
+  "api_prob": 50.06,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-041701",
+  "kind": "borderline",
+  "actual": "No",
+  "nb_pred": "Selected",
+  "nb_prob": 50.04,
+  "api_pred": "Selected",
+  "api_prob": 50.04,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-032660",
+  "kind": "borderline",
+  "actual": "No",
+  "nb_pred": "Selected",
+  "nb_prob": 50.05,
+  "api_pred": "Selected",
+  "api_prob": 50.05,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-030831",
+  "kind": "model-wrong (actual Yes)",
+  "actual": "Yes",
+  "nb_pred": "Not Selected",
+  "nb_prob": 6.69,
+  "api_pred": "Not Selected",
+  "api_prob": 6.69,
+  "status": "PASS"
+ },
+ {
+  "id": "CAND-043853",
+  "kind": "model-wrong (actual No)",
+  "actual": "No",
+  "nb_pred": "Selected",
+  "nb_prob": 94.68,
+  "api_pred": "Selected",
+  "api_prob": 94.68,
+  "status": "PASS"
+ }
+]

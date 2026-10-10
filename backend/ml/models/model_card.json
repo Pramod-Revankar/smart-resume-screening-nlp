@@ -1,0 +1,324 @@
+{
+  "model": "XGBClassifier (300 trees, depth 6, lr 0.05)",
+  "training_rows": 40000,
+  "test_rows": 10000,
+  "n_features": 22,
+  "target": "selected (No=0, Yes=1)",
+  "positive_rate": 0.4,
+  "test_metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.888,
+    "precision": 0.8592814371257484,
+    "recall": 0.861,
+    "f1": 0.8601398601398601,
+    "false_positives": 564,
+    "false_negatives": 556,
+    "true_positives": 3444,
+    "true_negatives": 5436,
+    "roc_auc": 0.9570202083333333,
+    "brier": 0.08080519735813141,
+    "log_loss": 0.2595466554230232
+  },
+  "decision_threshold": 0.5,
+  "threshold_rationale": "0.50 retained. On a validation split the F1-optimal cut-off was 0.45, worth only +0.0036 F1 over 0.50, which is within noise. Raising the threshold trades recall for precision (fewer false positives, more qualified candidates missed); lowering does the reverse.",
+  "threshold_table": [
+    {
+      "validation": {
+        "threshold": 0.3,
+        "accuracy": 0.869625,
+        "precision": 0.7861501724595383,
+        "recall": 0.9259375,
+        "f1": 0.8503372076338068,
+        "false_positives": 806,
+        "false_negatives": 237,
+        "true_positives": 2963,
+        "true_negatives": 3994
+      },
+      "test": {
+        "threshold": 0.3,
+        "accuracy": 0.8751,
+        "precision": 0.7954887218045112,
+        "recall": 0.92575,
+        "f1": 0.8556903523974582,
+        "false_positives": 952,
+        "false_negatives": 297,
+        "true_positives": 3703,
+        "true_negatives": 5048
+      }
+    },
+    {
+      "validation": {
+        "threshold": 0.4,
+        "accuracy": 0.87775,
+        "precision": 0.819620253164557,
+        "recall": 0.8903125,
+        "f1": 0.853505092869982,
+        "false_positives": 627,
+        "false_negatives": 351,
+        "true_positives": 2849,
+        "true_negatives": 4173
+      },
+      "test": {
+        "threshold": 0.4,
+        "accuracy": 0.8844,
+        "precision": 0.8290143452105506,
+        "recall": 0.89575,
+        "f1": 0.8610910838740687,
+        "false_positives": 739,
+        "false_negatives": 417,
+        "true_positives": 3583,
+        "true_negatives": 5261
+      }
+    },
+    {
+      "validation": {
+        "threshold": 0.45,
+        "accuracy": 0.882125,
+        "precision": 0.837167612787571,
+        "recall": 0.875625,
+        "f1": 0.8559645639224072,
+        "false_positives": 545,
+        "false_negatives": 398,
+        "true_positives": 2802,
+        "true_negatives": 4255
+      },
+      "test": {
+        "threshold": 0.45,
+        "accuracy": 0.8868,
+        "precision": 0.8442150744119059,
+        "recall": 0.87925,
+        "f1": 0.8613764388929709,
+        "false_positives": 649,
+        "false_negatives": 483,
+        "true_positives": 3517,
+        "true_negatives": 5351
+      }
+    },
+    {
+      "validation": {
+        "threshold": 0.5,
+        "accuracy": 0.8815,
+        "precision": 0.8496894409937888,
+        "recall": 0.855,
+        "f1": 0.8523364485981308,
+        "false_positives": 484,
+        "false_negatives": 464,
+        "true_positives": 2736,
+        "true_negatives": 4316
+      },
+      "test": {
+        "threshold": 0.5,
+        "accuracy": 0.888,
+        "precision": 0.8592814371257484,
+        "recall": 0.861,
+        "f1": 0.8601398601398601,
+        "false_positives": 564,
+        "false_negatives": 556,
+        "true_positives": 3444,
+        "true_negatives": 5436
+      }
+    },
+    {
+      "validation": {
+        "threshold": 0.55,
+        "accuracy": 0.8805,
+        "precision": 0.8631067961165049,
+        "recall": 0.8334375,
+        "f1": 0.8480127186009538,
+        "false_positives": 423,
+        "false_negatives": 533,
+        "true_positives": 2667,
+        "true_negatives": 4377
+      },
+      "test": {
+        "threshold": 0.55,
+        "accuracy": 0.8869,
+        "precision": 0.8723072930184272,
+        "recall": 0.84025,
+        "f1": 0.8559786069018209,
+        "false_positives": 492,
+        "false_negatives": 639,
+        "true_positives": 3361,
+        "true_negatives": 5508
+      }
+    },
+    {
+      "validation": {
+        "threshold": 0.6,
+        "accuracy": 0.880375,
+        "precision": 0.8815923783599864,
+        "recall": 0.8096875,
+        "f1": 0.8441114187978498,
+        "false_positives": 348,
+        "false_negatives": 609,
+        "true_positives": 2591,
+        "true_negatives": 4452
+      },
+      "test": {
+        "threshold": 0.6,
+        "accuracy": 0.8838,
+        "precision": 0.8853883758826725,
+        "recall": 0.815,
+        "f1": 0.8487373079927102,
+        "false_positives": 422,
+        "false_negatives": 740,
+        "true_positives": 3260,
+        "true_negatives": 5578
+      }
+    },
+    {
+      "validation": {
+        "threshold": 0.7,
+        "accuracy": 0.867125,
+        "precision": 0.9073579870377431,
+        "recall": 0.74375,
+        "f1": 0.817448050832904,
+        "false_positives": 243,
+        "false_negatives": 820,
+        "true_positives": 2380,
+        "true_negatives": 4557
+      },
+      "test": {
+        "threshold": 0.7,
+        "accuracy": 0.8709,
+        "precision": 0.9085972850678733,
+        "recall": 0.753,
+        "f1": 0.8235133287764866,
+        "false_positives": 303,
+        "false_negatives": 988,
+        "true_positives": 3012,
+        "true_negatives": 5697
+      }
+    },
+    {
+      "validation": {
+        "threshold": 0.8,
+        "accuracy": 0.8455,
+        "precision": 0.9333627537511032,
+        "recall": 0.6609375,
+        "f1": 0.7738748627881449,
+        "false_positives": 151,
+        "false_negatives": 1085,
+        "true_positives": 2115,
+        "true_negatives": 4649
+      },
+      "test": {
+        "threshold": 0.8,
+        "accuracy": 0.8484,
+        "precision": 0.9360955056179775,
+        "recall": 0.6665,
+        "f1": 0.7786214953271028,
+        "false_positives": 182,
+        "false_negatives": 1334,
+        "true_positives": 2666,
+        "true_negatives": 5818
+      }
+    }
+  ],
+  "validation_best_threshold": 0.45000000000000007,
+  "calibration": {
+    "mean_predicted": [
+      0.0006652512092987309,
+      0.003445256239851005,
+      0.011921866234391927,
+      0.04151249913498759,
+      0.13576263263821603,
+      0.35077950422465803,
+      0.6466427107453346,
+      0.8522926613092422,
+      0.9510208180546761,
+      0.9892417349219322
+    ],
+    "observed_rate": [
+      0.0,
+      0.004,
+      0.003,
+      0.046,
+      0.147,
+      0.36,
+      0.654,
+      0.849,
+      0.945,
+      0.992
+    ],
+    "ece_approx": 0.005451625890262947,
+    "share_ge_90": 0.2154,
+    "observed_rate_ge_90": 0.9647168059424327
+  },
+  "training_ranges": {
+    "age": [
+      18.0,
+      40.0
+    ],
+    "cgpa": [
+      5.23,
+      9.94
+    ],
+    "years_experience": [
+      0.0,
+      15.0
+    ],
+    "internships_count": [
+      0.0,
+      8.0
+    ],
+    "projects_count": [
+      0.0,
+      17.0
+    ],
+    "certifications_count": [
+      0.0,
+      12.0
+    ],
+    "python_skill": [
+      1.0,
+      10.0
+    ],
+    "sql_skill": [
+      1.0,
+      10.0
+    ],
+    "machine_learning_skill": [
+      1.0,
+      10.0
+    ],
+    "deep_learning_skill": [
+      1.0,
+      10.0
+    ],
+    "communication_skill": [
+      1.0,
+      10.0
+    ],
+    "leadership_skill": [
+      1.0,
+      10.0
+    ],
+    "github_projects": [
+      0.0,
+      16.0
+    ],
+    "kaggle_activity_score": [
+      1.3,
+      10.0
+    ],
+    "hackathons_participated": [
+      0.0,
+      11.0
+    ],
+    "expected_salary_lpa": [
+      3.0,
+      35.0
+    ],
+    "employment_gap_months": [
+      0.0,
+      24.0
+    ]
+  },
+  "caveats": [
+    "The training data is synthetic-looking: a plain logistic regression on the numeric columns matches XGBoost (AUC ~0.957).",
+    "expected_salary_lpa is the single strongest correlate of the target; a higher salary expectation raising selection odds is not realistic hiring behaviour.",
+    "gender and age are model inputs; flipping gender alone shifts individual probabilities by up to ~11 percentage points.",
+    "The model scores structured profile fields, not resume text. Resume-Job Match is a separate score."
+  ]
+}
