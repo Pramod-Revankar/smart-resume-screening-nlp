@@ -1,3 +1,4 @@
+
 # Smart Resume Screening
 
 AI recruitment intelligence: upload a resume, describe the role, get an evidence-based **Resume–Job Match** report — plus an optional, clearly separate **ML Selection Probability** from an XGBoost model with SHAP explanations.
