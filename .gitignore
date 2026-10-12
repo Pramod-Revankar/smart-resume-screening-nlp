@@ -7,3 +7,17 @@ __pycache__/
 # Frontend dependencies and cache
 frontend/node_modules/
 frontend/.vite/
+
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Personal resumes and uploaded documents
+data/resumes/
+backend/temp_*.pdf
+*.docx
+
+# Raw datasets
+backend/ml/datasets/raw/
